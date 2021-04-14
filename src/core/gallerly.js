@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import backgroundImage from '../images/galleryImage.jpg';
+import backgroundImage from '../images/menu.jpg';
 import backgroundImage2 from '../images/galleryImage2.jpg';
 import backgroundImage3 from '../images/galleryImage3.jpg';
 
@@ -34,7 +34,7 @@ function Gallery(props) {
           <div className="slides bg-black w-full h-full lg:mt-6 overflow-hidden rounded-lg lg:rounded-none">
             <div id="slide-1" className="w-full h-full text-white ">
               {
-                matches ? <div className="animate-pulse">optimizing large format images</div>:<div className="w-full bg-center bg-cover h-full lg:relative" style={urlDivStyle}></div>
+                matches ? <div className="w-full bg-center bg-cover h-full lg:relative" style={divStyle}></div>:<div className="w-full bg-center bg-cover h-full lg:relative" style={urlDivStyle}></div>
               }
             </div>
             <div id="slide-2" className="w-full h-full text-white bg-red-600">
@@ -49,8 +49,8 @@ function Gallery(props) {
         </div>
 
         <div className="w-full flex justify-center items-center -my-8 lg:-my-12" >
-          <a href="#slide-1" className="mx-2">hello</a>
-          <a href="#slide-2">hello</a>
+          <a href="#slide-1" className="mx-2">⬅️</a>
+          <a href="#slide-2">➡️</a>
         </div>
      
 

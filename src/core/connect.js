@@ -87,7 +87,8 @@ function Connect(initialState) {
 
             <div className="w-full flex-wrap py-4 md:py-10 lg:py-10">
               <div className="flex-wrap w-full py-2">
-                <div className="title text-lg lg:text-2xl">082 978 2789</div>
+                <a href="tel:+41 205 0838" className="title text-lg lg:text-2xl">041 205 0838</a>
+                <a href="https://api.whatsapp.com/send?phone=27720764918" className="title text-lg lg:text-2xl">072 076 4918</a>
                 <div className="title  text-lg lg:text-2xl">
                   info@khayasKitchen.co.za ---->
                 </div>
